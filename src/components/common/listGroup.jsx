@@ -1,8 +1,14 @@
 import React from "react";
 
-const listGroup = (props) => {
-  const { items, textProperty, valueProperty, selectedItem, onItemSelect } =
-    props;
+const listGroup = ({
+  items,
+  textProperty,
+  valueProperty,
+  selectedItem,
+  onItemSelect,
+}) => {
+  // const { items, textProperty, valueProperty, selectedItem, onItemSelect } =
+  //   props;
   return (
     <ul className="list-group">
       {items.map((item) => (

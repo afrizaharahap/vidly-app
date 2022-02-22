@@ -24,7 +24,7 @@ class Movies extends Component {
 
   handleDelete = (movie) => {
     //console.log("Button Clicked", movie);
-    const movies = this.state.movies.filter((m) => m._id != movie._id);
+    const movies = this.state.movies.filter((m) => m._id === !movie._id);
     //Syntax diatas untuk menampilkan movie yang tidak di KLIK DELETE saja!
 
     this.setState({ movies });

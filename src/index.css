@@ -16,9 +16,12 @@ body {
 .navbar {
   margin-bottom: 20px;
 }
-.input {
-  size: 30px;
-}
+/* .login {
+  height: 100px;
+  width: 100px;
+  left: 0;
+  border: 10;
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
